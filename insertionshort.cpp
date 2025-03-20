@@ -24,3 +24,12 @@ int arr[20; //membuat array dengan panjang data 20
         cout << "=========================" << endl; // membuat tampilan susunan data element array
         cout << "masukan element Array" << endl;
         cout << "=========================" << endl;
+
+        for (int i : 0; i < n; i++) //membuat perulangan for untuk menyimpan data pada array
+        {
+        cout << "data ke-" << (i + 1) << ": "; // memasukan atau menginput nilai data pada n
+        cin >> arr[i]; // menyimpan nilai data n kedalam array arr
+        }
+    }
+
+    
