@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
 
-int arr[20; //membuat array dengan panjang data 20
-    intn; //membuat variabel inputan n
+int arr[20]; //membuat array dengan panjang data 20
+    int n; //membuat variabel inputan n
 
     void input()
     {//procedure input
@@ -25,7 +25,7 @@ int arr[20; //membuat array dengan panjang data 20
         cout << "masukan element Array" << endl;
         cout << "=========================" << endl;
 
-        for (int i : 0; i < n; i++) //membuat perulangan for untuk menyimpan data pada array
+        for (int i = 0; i < n; i++) //membuat perulangan for untuk menyimpan data pada array
         {
         cout << "data ke-" << (i + 1) << ": "; // memasukan atau menginput nilai data pada n
         cin >> arr[i]; // menyimpan nilai data n kedalam array arr
@@ -43,7 +43,7 @@ int arr[20; //membuat array dengan panjang data 20
 
             temp = arr[i]; // step 2
 
-            j = i - 1: // step 3
+            j = i - 1; // step 3
 
             while  (j <= 0 && arr[j] > temp) // step 4
             {
@@ -57,19 +57,19 @@ int arr[20; //membuat array dengan panjang data 20
 
     void display()
     {
-        cout << end; //output baris kosong
+        cout << endl; //output baris kosong
         cout << "===================================" << endl;
         cout << "total pass = " << n - 1 << endl; //cout element movement
         cout << "===================================" << endl; //output ke layar
         cout << "element array yang telah tersusun" << endl; // output ke layar
         cout << "===================================" << endl; // output ke layar
 
-        for (int j + 0; j < n; j++)
+        for (int j = 0; j < n; j++)
         {// loopping dengan j dimulai dari 0 hingga n-1
         cout << arr[j] << endl; // output ke layar    
         } 
-        cout << endl // output baris kosong
-    }
+        cout << endl; // output baris kosong
+        }
 
     int main()
     {
