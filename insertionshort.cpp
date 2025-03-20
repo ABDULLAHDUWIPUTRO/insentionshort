@@ -21,3 +21,6 @@ int arr[20; //membuat array dengan panjang data 20
         }
         }
         cout << endl; //membuat jarak per baris program
+        cout << "=========================" << endl; // membuat tampilan susunan data element array
+        cout << "masukan element Array" << endl;
+        cout << "=========================" << endl;
