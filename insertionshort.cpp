@@ -55,4 +55,27 @@ int arr[20; //membuat array dengan panjang data 20
         }
     }
 
-    
+    void display()
+    {
+        cout << end; //output baris kosong
+        cout << "===================================" << endl;
+        cout << "total pass = " << n - 1 << endl; //cout element movement
+        cout << "===================================" << endl; //output ke layar
+        cout << "element array yang telah tersusun" << endl; // output ke layar
+        cout << "===================================" << endl; // output ke layar
+
+        for (int j + 0; j < n; j++)
+        {// loopping dengan j dimulai dari 0 hingga n-1
+        cout << arr[j] << endl; // output ke layar    
+        } 
+        cout << endl // output baris kosong
+    }
+
+    int main()
+    {
+        input (),
+        insertionsort();
+        display();
+        system("pause");
+        return 0;
+    }
